@@ -10,10 +10,22 @@ Your review sheet can be in any digital format you want, a word document, a goog
   * How to declare a variable: (code)
     ```javascript
     // write the syntax
+    var x = 1;
+
+if (x === 1) {
+  var x = 2;
+
+  
      ```
   * How to console.log the value of a variable: (code)
     ```javascript
-    // write the syntax
+   var x = 1;
+
+if (x === 1) {
+  var x = 2;
+
+  console.log(x);
+  // expected output: 2
      ```
 * ### conditionals:
   * ##### Operators:
@@ -26,6 +38,11 @@ Your review sheet can be in any digital format you want, a word document, a goog
    * ##### How to write an if Statements 
       ```javascript
         // write the syntax
+     == (equal to)	Checks if the values of two operands are equal or not, if yes then condition becomes true.
+     "==="it verifies that the objects being compared are of the same type and avoids implicit conversions.
+
+        -
+    >(greater than)	Checks if the value of left operand is greater than the value of right operand, if yes then condition becomes true.
        ```
  * ### functions:
     * How you declare a function: 
